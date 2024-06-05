@@ -1,18 +1,1 @@
-[
-  {
-    "text": "eat",
-    "completed": true
-  },
-  {
-    "text": "go to gym",
-    "completed": false
-  },
-  {
-    "text": "to change battery",
-    "completed": false
-  },
-  {
-    "text": "drink",
-    "completed": true
-  }
-]
+[]
