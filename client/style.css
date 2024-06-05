@@ -1,0 +1,228 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    text-align: center;
+    background-color: plum;
+}
+.container {
+    width: 45%;
+    height: 75vh;
+    background-color: white;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+h1 {
+    font-weight: bolder;
+    color: purple;
+    margin: 20px 0;
+}
+
+input {
+
+    width: 45%;
+    height: 50px;
+    border: 2px solid;
+    margin: 10px;
+    font-style: "fantasy";
+    border: 3px solid purple;
+    border-radius: 5px;
+
+}
+button{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(128, 0, 128, 0.700);
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid rgba(128, 0, 128, 0.700);
+    border-radius: 5px;
+    color: white;
+    
+
+}
+
+button:hover {
+    border: 2px solid purple;
+
+}
+
+.delbut {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    right:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.markbut{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.delbut:hover {
+    border: 1px solid rgb(163, 1, 1);
+
+}
+
+.list-item{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.editbut {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    right:45px;
+}
+
+.editbut:hover {
+    border: 1px solid darkorange;
+}
+
+
+
+.dragging {
+    opacity: 0.5;
+}
+
+.list-item {
+    cursor: move;
+}
+
+
+.markbut {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:10px;
+
+}
+
+.markbut:checked {
+    background-color: blue;
+    border-color: blue;
+}
+
+.markbut:checked::after {
+    content: '✔';
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+.list-item{
+    margin: 5px;
+    width: 73%;
+    background-color:violet;
+    border: 2px solid purple;
+    border-radius:5px;
+    position: relative;
+    padding: 7px;
+    text-align: left!important;
+}
+.ToDoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.completed {
+    color: rgb(1, 108, 1);
+}
+
+.disabled {
+    background-color:rgba(0, 128, 0, 0.2);
+    border:none;
+    color:rgb(211, 208, 208);
+    border:hover{
+        border-color: none;
+    }
+}
+
+
+
+
+@media (max-width: 950px) {
+    .container {
+        width: 60%;
+        height: 80vh;
+
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        width: 70%;
+        height: 85vh;
+
+    }
+}
+@media (max-width: 650px) {
+    .container {
+        width: 80%;
+        height: 90vh;
+
+    }
+}
+@media (max-width: 550px) {
+    .container {
+        width: 90%;
+        height: 95vh;
+
+    }
+  
+}
+
+
+
+
+
+
+
+
